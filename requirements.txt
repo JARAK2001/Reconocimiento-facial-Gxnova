@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+pymysql
+cryptography
+
+cmake
+dlib-bin
+face_recognition
+
+numpy
+pillow
+requests
+cloudinary
+python-dotenv
