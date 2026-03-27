@@ -9,6 +9,10 @@ from typing import Optional
 import face_recognition
 import json
 import numpy as np
+
+# Crear tablas automáticamente al iniciar (si no existen)
+Base.metadata.create_all(bind=engine)
+
 app = FastAPI()
 
 # Configurar CORS
